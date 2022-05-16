@@ -13,3 +13,8 @@
  *= require_tree .
  *= require_self
  */
+
+.form-outline {
+  margin: 0;
+  width: 50%;
+}
