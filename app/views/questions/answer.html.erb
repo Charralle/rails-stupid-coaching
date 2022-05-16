@@ -1,8 +1,13 @@
-<h1>Stupid Coaching</h1>
+<div id="first">
 <%= params[:ask] %>
 <p>-You</p>
+</div>
 
+<div id="second">
 <%= @coach %>
 <p>-Coach</p>
+</div>
 
-<%= link_to "Ask another question to your lovely Coach", ask_path %>
+<div id="link">
+<%= link_to "Ask another question to your lovely Coach", ask_path, id:"asking" %>
+</div>

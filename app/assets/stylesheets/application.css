@@ -18,3 +18,36 @@
   margin: 0;
   width: 50%;
 }
+
+#first {
+  margin-left: 30px;
+  border-left: solid;
+  padding: 5px;
+  border-color: grey;
+}
+
+#second {
+  margin-left: 30px;
+  border-left: solid;
+  padding: 5px;
+  border-color: grey;
+  background-color: yellow;
+  background-size: 25%;
+  max-width: 400px;
+}
+
+div {
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#link {
+  margin-left: 30px;
+}
+
+#asking {
+  text-transform: uppercase;
+}
